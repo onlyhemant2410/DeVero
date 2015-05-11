@@ -34,7 +34,7 @@ public class CointFlipper {
     public static CoinFace badHeadsOrTails() {
         double flipRatio = 0.6d;
 
-        if (Math.random() < flipRatio) {
+        if (Math.random() <= flipRatio) {
             return CoinFace.HEAD;
         }
 
